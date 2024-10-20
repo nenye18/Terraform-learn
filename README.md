@@ -1,8 +1,8 @@
-Demo Project:
+## Demo Project:
 Complete CI/CD with Terraform
-Technologies used:
+## Technologies used:
 Terraform, Jenkins, Docker, AWS, Git, Java, Maven, Linux, Docker Hub
-Project Description:
+## Project Description:
 Integrate provisioning stage into complete CI/CD Pipeline to automate provisioning server instead of
 deploying to an existing server
 Create SSH Key Pair
