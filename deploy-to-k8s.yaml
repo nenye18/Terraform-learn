@@ -1,0 +1,11 @@
+---
+-name: Deply app in new namespace
+ host: localhost
+ tasks:
+   -  name: Create a k8s namespace
+      kubernetes.core.k8s:
+        name: my-app
+        api-version: v1
+        kind: Namespace
+        state: present
+        kubeconfig:/Users/nenye18/terraform/kubeconfig_myapp-eks-cluster
